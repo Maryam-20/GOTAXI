@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 2px solid red;
+}
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: aliceblue;
+}
+nav{
+    height: 10vh;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 170px;
+    padding: 3px;
+    list-style-type: none;
+}
+li{
+    margin: 7px;
+    width: 10vw;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: #00b4d8 0px 3px 12px 0px;
+    background-color: #00b4d8;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: underline;
+}
+#main-container{
+    height: 80vh;
+}
+.subcontainer{
+    background-image: url(../gotaxi-images/gotaxi-images/asset1.jpg);
+}
+.Gotaxibox{
+    display: flex;
+    margin: 65px;
+    height: 50vh;
+    
+}
+ .Gotaxi hr{
+    max-width: 80px;
+    margin-left: 36px;
+    margin-top: 10px;
+    border: thick solid darkblue;
+}
+.Gotaxibox img{
+    max-width: 400px;
+    max-height: 29vh;
+    margin-top: 10px;
+    margin-bottom: 26px;
+
+}
+.Gotaxi h2{
+    padding: 25px;
+}
+.Gotaxi p{
+    margin-left:36px;
+    margin-top: 20px;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+.register{
+    background-color: rgb(227, 242, 253);
+}
+.register img{
+    margin-left: 720px;
+}
+.register a{
+    text-decoration: none;
+    color: #00b4d8;
+}
+.register h3{
+    text-align: center;
+}
+.register p{
+    text-align: center;
+}
+button{
+    border: 1px solid #00b4d8;
+    border-radius: 100px;
+    padding: 17px;
+    max-width: 540px;
+    margin-left: 720px;
+    background-color: #00b4d8;
+    color: white;
+    margin-top: 50px;
+    transform: scaleX(20px);
+    margin-bottom: 50px;
+}
+#container{
+    position: relative;
+    background-image: url(../../Downloads/banner.png);
+    background-position: right 50% bottom  200px;
+    background-size: 30% 150px;
+    background-repeat: repeat-x;
+}
+#container h2{
+    text-align: center;
+    color: #00b4d8;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    column-gap: 20px;
+    row-gap: 25px;
+    margin-top: 30px;
+    z-index: 10;
+}
+.childgrid{
+    border-radius: 10px;
+    box-shadow: rgb(222, 226, 230) 0px 0px 5px 2px;
+}
+.childgrid img{
+    max-width: 270px;
+    margin-bottom: 30px;
+}
+.childgrid h4{
+    text-align: center;
+    margin: 0px auto;
+    color: rgb(96, 189, 3);
+    font-weight: bolder;
+}
+.childgrid hr{
+    margin: 15px;
+}
+.childgrid p{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.bgblue{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(33, 62, 191);
+    height: 200px;
+    width: 100%;
+    z-index: 5;
+}
+#flexcontainer{
+    display: flex;
+}
+
+

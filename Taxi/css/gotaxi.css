@@ -1,0 +1,458 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+#header{
+    width: 100%;
+    /* height: 7vh; */
+    /* padding: 10px; */
+    position: sticky;
+    top: 0;
+    right: 0;
+    /* margin-top: 10px; */
+    /* margin-bottom: 20px; */
+    background-color: aliceblue;
+}
+nav{
+    height: 10vh;
+}
+#header ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 170px;
+    padding: 3px;
+    /* margin-top: 30px; */
+    list-style-type: none;
+}
+#header li{
+    margin: 7px;
+    width: 10vw;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: #00b4d8 0px 3px 12px 0px;
+    background-color: #00b4d8;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: underline;
+}
+#main-container{
+    height: 100vh;
+}
+.subcontainer{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    background-image: url(../gotaxi-images/asset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animatebg 10s cubic-bezier(0,1,0,1) infinite;
+}
+@keyframes animatebg {
+    0%{
+        background: url(../gotaxi-images/asset.jpg) no-repeat;
+        background-size: cover;
+    }
+    33%{
+        background: url(../gotaxi-images/asset1.jpg) no-repeat;
+        background-size: cover;
+    }
+    66%{
+        background: url(../gotaxi-images/asset2.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+.subcontainer .circle{
+    height: 17px;
+    width: 17px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.first-circle{
+    animation: animate-first-circle 10s cubic-bezier(0,1,0,1) infinite;
+}
+.second-circle{
+    animation: animate-second-circle 10s cubic-bezier(0,1,0,1);
+}
+.third-circle{
+    animation: animate-third-circle 10s cubic-bezier(0,1,0,1);
+}
+@keyframes animate-first-circle{
+    0%{
+        background-color: #fff;
+    }
+    33%{
+        background-color: none;
+    }
+    66%{
+        background-color: #fff;
+    }
+}
+@keyframes animate-second-circle{
+    0%{
+        background-color: #fff;
+    }
+    33%{
+        background-color: #fff;
+    }
+    66%{
+        background-color: #fff;
+    }
+}
+@keyframes animate-third-circl{
+    0%{
+        background-color: #fff;
+    }
+    33%{
+        background-color: none;
+    }
+    66%{
+        background-color: #fff;
+    }
+}
+#Gotaxibox{
+    width: 100%;
+}
+.Gotaxibox{
+    display: flex;
+    width: 78%;
+    gap: 2rem;
+    /* justify-content: space-between; */
+    margin: auto;
+    /* margin-top: 50px; */
+    /* height: 30vh; */
+    
+}
+.Gotaxibox img{
+    max-width: 30vw;
+    max-height: 29vh;
+}
+#gotaxi{
+    padding: 20px;
+}
+#gotaxi h2{
+    font-weight: 600;
+}
+#line{
+    max-width: 14vw;
+    background-color: darkblue;
+    border: 2px solid darkblue;
+}
+.Gotaxi p{
+    /* margin-left:36px; */
+    /* margin-top: 20px; */
+    /* line-height: 1.5em; */
+    font-size: 18px;
+    padding: 20px;
+    /* margin-bottom: 30px; */
+}
+.register{
+    background-color: rgb(227, 242, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+}
+.register a{
+    text-decoration: none;
+    color: #00b4d8;
+}
+.register h3{
+    /* text-align: center; */
+    padding-top: 50px;
+    font-size: 25px;
+    /* margin-bottom: 20px; */
+}
+.register p{
+    font-size: 16px;
+    margin-bottom: 27px;
+}
+#register-btn{
+    margin: 30px auto;
+    border: 1px solid #00b4d8;
+    border-radius: 8px;
+    background-color: #00b4d8;
+    padding: .35rem 1.3rem;
+    color: #fff;
+    box-shadow: 2px 5px 8px 0px #00b4d8;
+    /* justify-content: center; */
+}
+#container{
+    position: relative;
+    background-image: url(../gotaxi-images/banner.png);
+    background-position: right 50% bottom  200px;
+    background-size: 30% 150px;
+    background-repeat: repeat-x;
+    height: 160vh;
+}
+#container h2{
+    text-align: center;
+    color: #00b4d8;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 25px;
+    padding: 30px;
+}
+.gridcontainer{
+    position: relative;
+    width: 90%;
+    /* height: 30vh; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+.childgrid{
+    height: 67vh;
+    width: 20vw;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px 3px rgb(0 0 0 / 40%);
+}
+.card-img{
+    width: 100%;
+}
+#card-img-1{
+    width: 95%;
+}
+.Go-Tittle{
+    font-size: 23px;
+    text-align: center;
+    color: #60bd03;
+    margin-bottom: 10px;
+}
+hr{
+    width: 16vw;
+    margin-left: 30px;
+}
+.Go-Text{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    line-height: 2rem;
+    margin-top: 20px;
+}
+.bgblue{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(33, 62, 191);
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+}
+#parContainer{
+    height: 87vh;
+    width: 100%;
+}
+#flexcontainer{
+    height: 80vh ;
+    display: flex;
+    gap: 3.5rem;
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.easeGotaxi h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.specifyBox{
+    margin-bottom: 45px;
+}
+.specifyBox h4{
+    text-align: end;
+    font-size: 22px;
+    color: #60bd03;
+    padding: 10px;
+    animation: animate-h4 3s linear infinite;
+}
+@keyframes animate-h4{
+    0%{
+        color: #60bd03;
+    }
+    66%{
+        color: #00b4d8;
+    }
+    100%{
+        color: #00b4d8;
+    }
+}
+.specifyBox p{
+    text-align: end;
+    font-size: 19px;
+    line-height: 1.5rem;
+}
+#handcontainer{
+    position: relative;
+    background-image: url(../gotaxi-images/hand.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 50vw;
+}
+.handChild{
+    height: 70vh;
+    width: 16.7vw;
+    margin-top: 67px;
+    margin-left: 91px;
+    background-image: url(../gotaxi-images/view1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animate-handchild 10s cubic-bezier(0,1,0,1)infinite
+}
+@keyframes animate-handchild{
+    0%{
+        background-image: url(../gotaxi-images/view1.jpg);
+    }
+    33%{
+        background-image: url(../gotaxi-images/view2.jpg);
+    }
+    100%{
+        background-image: url(../gotaxi-images/view3.jpg);
+    }
+}
+#Go-food-container{
+    background-image: url(../gotaxi-images/ilustrasion-scene.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+.car{
+    position: absolute;
+     height: 100px;
+     width: 100%;
+     top: 3462px;
+     left: 0;
+}
+#Vehicle-1{
+    background-image: url(../gotaxi-images/ilustrasion-vehicle.png);
+    background-repeat: no-repeat;
+    background-size: auto 100px ;
+    animation: animate-Vehicle-1 10s normal linear infinite 0s;
+}
+#Vehicle-2{
+    background-image: url(../gotaxi-images/ilustrasion-vehicle-02.png);
+    background-repeat: no-repeat;
+    background-size: auto 100px;
+    animation: animate-Vehicle-2 10s normal linear infinite 0s;
+}
+#Vehicle-3{
+    background-image: url(../gotaxi-images/ilustrasi-vehicle-reverse.png);
+    background-repeat: no-repeat;
+    animation: animate-Vehicle-3 10s normal linear infinite 0s ;
+}
+@keyframes animate-Vehicle-1 {
+    from {
+         background-position: -650px 0;
+    }
+
+    to {
+         background-position: 650px 0;
+    }
+
+}
+
+@keyframes animate-Vehicle-3 {
+    from {
+         background-position: 650px 0;
+    }
+
+    to {
+         background-position: -650px 0;
+    }
+
+}
+
+@keyframes animate-Vehicle-2 {
+    from {
+        background-position: -950px 0;
+    }
+
+    to {
+        background-position: 950px 0;
+}
+
+}
+#footer{
+    background-color: black;
+    margin-top: 280px;
+    height: 48vh;
+}
+#footer-grid{
+    width: 80%;
+    height: 40vh;
+    display:grid;
+    grid-template-columns: repeat(3,2fr);
+    margin: auto;
+    gap: 3rem;
+}
+.taxi-col img{
+    max-width:90%;
+    margin-top: 40px;
+}
+.list-col{
+    margin-top: 40px;
+}
+.url:hover{
+    text-decoration: underline;
+    color: green;
+}
+.list-col a{
+    text-decoration: none;
+    transition: all 1.3s;
+}
+.list-col li{
+    text-align: center;
+    padding: 10px;
+}
+#footer-circle-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 6px;
+}
+.footer-circle{
+    height: 5vh;
+    width: 2.5vw;
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: #fff;
+}
+#footer-btn{
+    margin-top: 40px;
+    border: 1px solid #00b4d8;
+    border-radius: 20px;
+    width: 10vw;
+    height: 5vh;
+    color: #00b4d8;
+    background-color: black;
+    transition: all 1.3s;
+}
+#footer-btn:hover{
+    text-decoration: underline;
+    color:#fff;
+    /* background: var(--primary-color); */
+}
+#footer-line{
+    border-bottom: 1px solid #6a6868;
+    width: 80%;
+    margin: auto;
+}
+.Copyright{
+    color: #fff;
+    text-align: center;
+    margin: 1rem;
+}

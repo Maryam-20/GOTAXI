@@ -90,7 +90,7 @@ nav ul a:hover {
     padding-bottom: 2rem;
     gap: 0.7rem;
     /* background-image: url(../gotaxi-images/asset.jpg); */
-    background-image: url(../Taxi/gotaxi-images/asset.jpg);
+    background-image: url(./gotaxi-images/asset.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -98,10 +98,10 @@ nav ul a:hover {
 }
 
 @keyframes animatebg {
-    0%   { background-image: url(../Taxi/gotaxi-images/asset.jpg); }
-    33%  { background-image: url(../Taxi/gotaxi-images/asset1.jpg); }
-    66%  { background-image: url(../Taxi/gotaxi-images/asset2.jpg); }
-    100% { background-image: url(../Taxi/gotaxi-images/asset.jpg); }
+    0%   { background-image: url(./gotaxi-images/asset.jpg); }
+    33%  { background-image: url(./gotaxi-images/asset1.jpg); }
+    66%  { background-image: url(./gotaxi-images/asset2.jpg); }
+    100% { background-image: url(./gotaxi-images/asset.jpg); }
 }
 
 .circle {
@@ -347,22 +347,22 @@ nav ul a:hover {
     box-shadow: 0 12px 40px rgba(0,0,0,0.18);
     overflow: hidden;
     aspect-ratio: 9/18;
-    background-image: url(../Taxi/gotaxi-images/view1.jpg);
+    background-image: url(./gotaxi-images/view1.jpg);
     background-size: cover;
     background-position: center;
     animation: animate-handchild 10s cubic-bezier(0,1,0,1) infinite;
 }
 
 @keyframes animate-handchild {
-    0%   { background-image: url(../Taxi/gotaxi-images/view1.jpg); }
-    33%  { background-image: url(../Taxi/gotaxi-images/view2.jpg); }
-    66%  { background-image: url(../Taxi/gotaxi-images/view3.jpg); }
-    100% { background-image: url(../Taxi/gotaxi-images/view1.jpg); }
+    0%   { background-image: url(./gotaxi-images/view1.jpg); }
+    33%  { background-image: url(./gotaxi-images/view2.jpg); }
+    66%  { background-image: url(./gotaxi-images/view3.jpg); }
+    100% { background-image: url(./gotaxi-images/view1.jpg); }
 }
 
 /* vehicles scene */
 #Go-food-container {
-    background-image: url(../Taxi/gotaxi-images/ilustrasion-scene.png);
+    background-image: url(./gotaxi-images/ilustrasion-scene.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -381,14 +381,14 @@ nav ul a:hover {
 }
 
 #Vehicle-1 {
-    background-image: url(../Taxi/gotaxi-images/ilustrasion-vehicle.png);
+    background-image: url(./gotaxi-images/ilustrasion-vehicle.png);
     background-repeat: no-repeat;
     background-size: auto 90px;
     animation: moveRight 10s linear infinite;
 }
 
 #Vehicle-2 {
-    background-image: url(../Taxi/gotaxi-images/ilustrasion-vehicle-02.png);
+    background-image: url(./gotaxi-images/ilustrasion-vehicle-02.png);
     background-repeat: no-repeat;
     background-size: auto 90px;
     bottom: 30px;
@@ -396,7 +396,7 @@ nav ul a:hover {
 }
 
 #Vehicle-3 {
-    background-image: url(../Taxi/gotaxi-images/ilustrasi-vehicle-reverse.png);
+    background-image: url(./gotaxi-images/ilustrasi-vehicle-reverse.png);
     background-repeat: no-repeat;
     background-size: auto 90px;
     bottom: 50px;
